@@ -1,0 +1,117 @@
+#construction {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+/* sidebar START */
+#profile {
+	margin-bottom: 2.5px;
+}
+
+#sidebar a.sidebar-link {
+	background-color: #2A96BC;
+	color: #F2F2F2;
+	font-size: 24px;
+	line-height: 45px;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	margin-bottom: 2.5px;
+	margin-top: 2.5px;
+	width: 200px;
+	text-align: center;
+}
+
+.sidebar-list {
+	width: 200px;
+}
+#home {
+	position: absolute;
+	top: 210px;
+}
+
+#home a {
+	padding: 25px 73px 25px 73px;
+}
+
+#about {
+	position: absolute;
+	top: 260px;
+}
+#about a {
+	padding: 21px 50px 21px 50px;
+}
+#projects {
+	position: absolute;
+	top: 310px;
+}
+#projects a {
+	padding: 21px 60px 21px 60px;
+}
+#resume {
+	position: absolute;
+	top: 360px;
+}
+#resume a {
+	padding: 21px 60px 21px 60px;
+}
+#blog {
+	position: absolute;
+	top: 410px;
+}
+#blog a {
+	padding: 21px 73px 21px 80px;
+}
+
+#sidebar ul {
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar ul li {
+	list-style-type: none;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#sidebar {
+	width: 200px;
+	max-width: 200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+/* sidebar END */
+
+/* content START */
+#content {
+	margin-left: 210px;
+	margin-right: auto;
+}
+
+#title {
+	font-size: 60pt;
+	color: #52B5D8;
+}
+
+#tagline {
+	font-size: 36pt;
+	color: #52B5D8;
+}
+
+#jobline {
+	font-size: 18pt;
+	color: #4D4D4D;
+}
+
+
+
+/* content END */
+
+/* text styles */
+.bold 				{font-weight: bold;}
+.em					{font-style:italic;}
+.strike				{text-decoration:line-through;}
+.cb					{clear:both;}
+.small				{font-size:12px;line-height:16px;}
+.hidden				{display:none;}
