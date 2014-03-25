@@ -1,3 +1,7 @@
+body {
+	font-family: 'Lusitana', Trebuchet MS, Tahoma, Sans-Serif;
+}
+
 #construction {
 	font-weight: bold;
 	font-size: 24px;
@@ -95,13 +99,17 @@
 }
 
 #tagline {
-	font-size: 36pt;
+	font-size: 24pt;
 	color: #52B5D8;
 }
 
 #jobline {
-	font-size: 18pt;
+	font-size: 16pt;
 	color: #4D4D4D;
+}
+
+header {
+	margin-top: 35px;
 }
 
 
