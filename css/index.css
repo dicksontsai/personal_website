@@ -1,5 +1,11 @@
+/* reset */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	font-family: 'Lusitana', Trebuchet MS, Tahoma, Sans-Serif;
+	font-family: 'Telex', Trebuchet MS, Tahoma, Sans-Serif;
 }
 
 #construction {
@@ -23,6 +29,16 @@ body {
 	margin-top: 2.5px;
 	width: 200px;
 	text-align: center;
+	text-decoration: none;
+}
+
+#sidebar a.sidebar-link:hover {
+	color: #0071BC;
+	font-style: italic;
+}
+
+#sidebar a.sidebar-link:visited {
+	color: #E8E8E8;
 }
 
 .sidebar-list {
@@ -34,7 +50,7 @@ body {
 }
 
 #home a {
-	padding: 25px 73px 25px 73px;
+	padding: 25px 68px 25px 68px;
 }
 
 #about {
@@ -42,28 +58,42 @@ body {
 	top: 260px;
 }
 #about a {
-	padding: 21px 50px 21px 50px;
+	padding: 21px 45px 21px 45px;
 }
 #projects {
 	position: absolute;
 	top: 310px;
 }
 #projects a {
-	padding: 21px 60px 21px 60px;
+	padding: 21px 55px 21px 55px;
 }
 #resume {
 	position: absolute;
 	top: 360px;
 }
 #resume a {
-	padding: 21px 60px 21px 60px;
+	padding: 21px 55px 21px 55px;
 }
 #blog {
 	position: absolute;
 	top: 410px;
 }
 #blog a {
-	padding: 21px 73px 21px 80px;
+	padding: 21px 75px 21px 75px;
+}
+#email {
+	position: absolute;
+	top: 460px;
+}
+#email a {
+	padding: 21px 80px 21px 66px;
+}
+
+#email-tag {
+	display: none;
+	position: absolute;
+	top: 500px;
+	background-color: #52B5D8;
 }
 
 #sidebar ul {
@@ -85,22 +115,33 @@ body {
 	left: 0;
 	top: 0;
 }
+
 /* sidebar END */
 
 /* content START */
 #content {
+	top: 0px;
 	margin-left: 210px;
 	margin-right: auto;
+	margin-top: 0px;
 }
 
+#content a {
+	text-decoration: none;
+	color: #2a96bc;
+}
+
+
 #title {
-	font-size: 60pt;
-	color: #52B5D8;
+	font-size: 62pt;
+	background: rgba(1, 61, 31, 0.1);
+	padding-right: 5px;
+	color: #99e260;
 }
 
 #tagline {
 	font-size: 24pt;
-	color: #52B5D8;
+	color: #6AD3Ef;
 }
 
 #jobline {
@@ -109,7 +150,11 @@ body {
 }
 
 header {
-	margin-top: 35px;
+	background-image: url("../assets/galicia.jpg");
+	margin-top: 0px;
+	border-top: 0px;
+	padding-top: 0px;
+	max-width: 1030px;
 }
 
 
