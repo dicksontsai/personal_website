@@ -151,6 +151,11 @@ header {
 	max-width: 1030px;
 }
 
+.indexpost {
+        border-top-style: solid;
+        border-bottom-style: solid;
+	border-width: 1px;
+}
 
 
 /* content END */
