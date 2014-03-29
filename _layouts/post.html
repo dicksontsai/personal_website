@@ -1,15 +1,46 @@
----
-layout: default
-stylesheet: /css/blog.css
-title: {{ page.title }}
-headertitle: blog
----
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/blog.css" />
+	<title>{{ page.title }}</title>
+	<head profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon" 
+      type="image/png" 
+      href="/assets/favicon.png">
+    <script src="/js/jquery-1.9.1.js"></script>
+    <script src="/js/script.js"></script>
 
-<div id="postbox">
-<h1 id="posttitle">{{ page.title }}</h1>
-<h3 id="postdate">Posted: {{ page.date | date: "%-d %B %Y" }}</h3> 
-{{ content }}
-</div>
+</head>
+<body>
+	<div id="sidebar">
+		<a href="/"><img id="profile" src="/assets/me.png" /></a>
+		<ul>
+		<li class="sidebar-list" id="home"><a class="sidebar-link" href="/">Home</a></li>
+		<li class="sidebar-list" id="about"><a class="sidebar-link" href="/about">About Me</a></li>
+		<li class="sidebar-list" id="projects"><a class="sidebar-link" href="/projects">Projects</a></li>
+		<li class="sidebar-list" id="resume"><a class="sidebar-link" href="/assets/resume.pdf">Résumé</a></li>
+		<li class="sidebar-list" id="blog"><a class="sidebar-link" href="/blog">Blog</a></li>
+		<li class="sidebar-list" id="email"><a class="sidebar-link" href="mailto:dickson.tsai@gmail.com">Email</a></li>
+		</ul>
+		<div id="email-tag">dickson [dot] tsai [at] gmail</div>
+	</div>
+	<div id="content">
+		<header>
+		<div id="header-text">
+			<span id="titleline">Blog</span>
+		</div>
+		</header>
+		<div id="postbox">
+			<h1 id="posttitle">{{ page.title }}</h1>
+			<h3 id="postdate">Posted: {{ page.date | date: "%-d %B %Y" }}</h3> 
+			{{ content }}
+		</div>	
+	</div>
+</body>
+</html>
+
 
 
 

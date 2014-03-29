@@ -2,6 +2,7 @@
 layout: post
 category: pages
 tags: [occurrences, personal]
+title: First Blog Post and Occurrences 3.16.14
 ---
 
 Hi everyone! This is my first blog post for my 3rd or fourth blog I believe, but I'm pretty sure I'll be more motivated to maintain this one, because my own reputation is on the line here. 
