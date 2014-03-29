@@ -6,7 +6,7 @@ title: First Blog Post and Occurrences 3.16.14
 
 Hi everyone! This is my first blog post for my 3rd or fourth blog I believe, but I'm pretty sure I'll be more motivated to maintain this one, because my own reputation is on the line here. 
 
-Anyway, my blog will have a mix of technical content, my observations on language (you hear a lot of linguistic data walking through a campus of 30,000 students!), and my personal accounts of the week called "Occurrences". This idea comes from James Maa's "Highlights" (which he told me was based off someone else's idea), where I basically recount two (or a lot more) positive things that happen during my day. If you know me well, who knows? You might appear on the list someday! If you are just here for non-personal information, just check out the "language", "ideas", "studies", or "tech" tags once I start writing for them.
+Anyway, my blog will have a mix of technical content, my observations on language (you hear a lot of linguistic data walking through a campus of 30,000 students!), and my personal accounts of the week called "Occurrences". This idea comes from <a href="http://jamesmaa.com">James Maa</a>'s "Highlights" (which he told me was based off someone else's idea), where I basically recount two (or a lot more) positive things that happen during my day. If you know me well, who knows? You might appear on the list someday! If you are just here for non-personal information, just check out the "language", "ideas", "studies", or "tech" tags once I start writing for them.
 
 Without further ado, here are my occurrences for the week.
 

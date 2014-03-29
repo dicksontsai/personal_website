@@ -127,7 +127,7 @@ body {
 }
 
 #content a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: #2a96bc;
 }
 
@@ -142,6 +142,21 @@ body {
 	padding-left: 20px;
 }
 
+#tagline {
+	font-size: 16pt;
+	color: #6AD3Ef;
+}
+
+#jobline {
+	font-size: 16pt;
+	color: #4D4D4D;
+}
+
+#divider {
+	font-size: 16pt;
+	color: #000000;
+}
+
 
 header {
 	background-image: url("../assets/castle.jpg");
@@ -151,6 +166,25 @@ header {
 	max-width: 1030px;
 }
 
+.facttitle {
+	color: #0894ba;
+}
+
+.fact {
+	list-style-type: none;
+}
+
+#fastfacts {
+	display: none;
+}
+
+.factbutton {
+	background-color: #2A96BC;
+	color: white;
+	font-size: 12pt;
+	border-radius: 3px;
+	border: none;
+}
 
 
 /* content END */
