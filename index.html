@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-    <link href='http://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/index.css"/>
 	<head profile="http://www.w3.org/2005/10/profile">
 	<link rel="icon" 
@@ -52,10 +52,10 @@
 	<div id="sidebar">
 		<img id="profile" src="assets/me.png" />
 		<ul>
-		<li class="sidebar-list" id="home"><a class="sidebar-link">Home</a></li>
+		<li class="sidebar-list" id="home"><a class="sidebar-link" href="index.html">Home</a></li>
 		<li class="sidebar-list" id="about"><a class="sidebar-link">About Me</a></li>
 		<li class="sidebar-list" id="projects"><a class="sidebar-link">Projects</a></li>
-		<li class="sidebar-list" id="resume"><a class="sidebar-link" href="assets/resume.pdf">Résumé</a></li>
+		<li class="sidebar-list" id="resume"><a class="sidebar-link" href="assets/resume.pdf">Resume</a></li>
 		<li class="sidebar-list" id="blog"><a class="sidebar-link">Blog</a></li>
 		<li class="sidebar-list" id="email"><a class="sidebar-link" href="mailto:dickson.tsai@gmail.com">Email</a></li>
 		</ul>
@@ -64,14 +64,14 @@
 	<div id="content">
 		<header>
 		<div id="header-text">
-			<span id="title">Dickson Tsai</span> <br> <br><br>
-			<span id="tagline">Software Engineer and Language Enthusiast</span> <br>
-			<span id="jobline">UC Berkeley Computer Science and Linguistics, 2016</span>
+			<span id="title">Dickson Tsai</span> <br> <br>
+			<span id="tagline"> Software Engineer and Language Enthusiast</span> <br>
+			<span id="jobline"> UC Berkeley Computer Science and Linguistics, 2016</span>
 		</div>
 		</header>
-		<p>Welcome everyone! This website is <span id="construction">still under construction</span>. Please check back in a week or so!</p>
-		<br>
-		<p>Welcome everyone! I am a second-year undergraduate CS and Linguistics major at UC Berkeley. I am interested in NLP, machine learning, modern computing power and statistics' implications on traditional linguistic theory, and more generally in ideas that will help us responsibly harness today's technology to build a more friendly, collaborative society. If you would like to learn more about me, I invite you to visit the links to your left. You can also find me on <a href="http://facebook.com/dicksonhtsai">Facebook</a>, <a href="https://www.linkedin.com/pub/dickson-tsai/64/40a/108">LinkedIn</a>, and <a href="http://www.youtube.com/channel/UCV8fTJu6CO8UXz-KvliG-Qw">YouTube</a>, although I will be maintaining my own website more frequently for public view.</p>
+		<!-- <p>Welcome everyone! This website is <span id="construction">still under construction</span>. Please check back in a week or so!</p> -->
+		<p>Welcome everyone! I am a second-year undergraduate CS and Linguistics major at UC Berkeley. I am interested in NLP, machine learning, modern computing power and statistics' implications on traditional linguistic theory, and more generally in ideas that will help us responsibly harness today's technology to build a more friendly, collaborative society.</p>
+		<p>If you would like to learn more about me, I invite you to visit the links to your left. You can also find me on <a href="http://facebook.com/dicksonhtsai">Facebook</a>, <a href="https://github.com/dicksontsai">GitHub</a>, <a href="https://www.linkedin.com/pub/dickson-tsai/64/40a/108">LinkedIn</a>, and <a href="http://www.youtube.com/channel/UCV8fTJu6CO8UXz-KvliG-Qw">YouTube</a>, although I will be maintaining my own website more frequently for public view.</p>
 		<div id="artwork">
 			<svg class="chart" preserveAspectRatio="xMinYMinmeet"></svg>
 			<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -112,7 +112,7 @@
 			  return d;
 			}
 			</script>
-			<p><b style="font-weight: bolder">Linguistic skyline.</b> I took the 50-1000th most frequent words from <a href="http://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/explanation">Wiktionary's TV 2006 lists</a>, alphabetized them, and put the first 100 of my results on display here using d3.js. The bar heights are determined by floored log frequencies, hence the many similar levels (but it makes the overall graph look nicer),</p>
+			<p><a href="skyline.html" style="font-weight: bolder">Linguistic skyline.</a> I took the 50-1000th most frequent words from <a href="http://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/TV/2006/explanation">Wiktionary's TV 2006 lists</a>, alphabetized them, and put the first 100 of my results on display here using d3.js. The bar heights are determined by floored log frequencies, hence the many similar levels (but it makes the overall graph look nicer),</p>
 		</div>
 	</div>
 	<script>

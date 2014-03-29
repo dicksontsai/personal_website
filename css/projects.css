@@ -31,9 +31,8 @@ body {
 	text-align: center;
 	text-decoration: none;
 }
-
 #sidebar a.sidebar-link:visited {
-	color: #E8E8E8;
+	color: #E2E2E2;
 }
 
 #sidebar a.sidebar-link:hover {
@@ -132,26 +131,20 @@ body {
 	color: #2a96bc;
 }
 
+#header-text {
+	padding-top: 90px;
+}
 
-#title {
+#titleline {
 	font-size: 62pt;
-	background: rgba(1, 61, 31, 0.1);
 	padding-right: 5px;
-	color: #99e260;
+	color: #ff0000;
+	padding-left: 340px;
 }
 
-#tagline {
-	font-size: 24pt;
-	color: #6AD3Ef;
-}
-
-#jobline {
-	font-size: 16pt;
-	color: #4D4D4D;
-}
 
 header {
-	background-image: url("../assets/galicia.jpg");
+	background-image: url("../assets/projects.png");
 	margin-top: 0px;
 	border-top: 0px;
 	padding-top: 0px;
