@@ -2,6 +2,7 @@
 layout: post
 category: pages
 tags: [occurrences, personal]
+date: March 29, 2014
 ---
 
 Hello world! First blog post, occurrences for 3/16-3/22
