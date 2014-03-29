@@ -7,7 +7,7 @@ headertitle: blog
 
 <div id="postbox">
 <h1 id="posttitle">{{ page.title }}</h1>
-<h3 id="postdate">{{ page.display_date }}</h3> 
+<h3 id="postdate">{{ page.date | date: "%-d %B %Y" }}</h3> 
 {{ content }}
 </div>
 

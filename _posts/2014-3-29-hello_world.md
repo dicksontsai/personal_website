@@ -3,7 +3,7 @@ layout: post
 category: pages
 tags: [occurrences, personal]
 title: Hello world! First blog post, occurrences for 3/16-3/22
-display_date: March 29, 2014
+date: March 29, 2014
 ---
 
 Hi everyone! This is my first blog post for my 3rd or fourth blog I believe, but I'm pretty sure I'll be more motivated to maintain this one, because my own reputation is on the line here. 
