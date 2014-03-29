@@ -1,7 +1,6 @@
 ---
 layout: post
-category: pages
-tags: [occurrences, personal]
+categories: [personal, occurrences]
 title: First Blog Post and Occurrences 3.16.14
 ---
 

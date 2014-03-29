@@ -10,7 +10,10 @@ headertitle: Blog
 <div class="indexpost">
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 <p class="author">
-    <span class="date">Posted: {{ post.date | date: "%-d %B %Y" }}</span>
+    <span class="date"><b>Posted:</b> {{ post.date | date: "%-d %B %Y" }}</span> <b>Tags:</b> 
+    {% for tag in post.categories %}
+    <span class="tag"><a href="/categories/{{ tag }}"> {{ tag }} </a></span>
+    {% endfor %}
 </p>
 <div class="content">
     {{ post.content }}

@@ -157,6 +157,13 @@ header {
 	border-width: 1px;
 }
 
+.tag {
+	border: 1px solid #0071bc;
+	border-radius: 5px;
+	background: #a5dcf2;
+	padding-right: 0px 10px 0px 10px;
+	margin: 3px;
+}
 
 /* content END */
 

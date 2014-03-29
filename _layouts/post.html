@@ -34,7 +34,12 @@
 		</header>
 		<div id="postbox">
 			<h1 id="posttitle">{{ page.title }}</h1>
-			<h3 id="postdate">Posted: {{ page.date | date: "%-d %B %Y" }}</h3> 
+			<p>
+				<span id="postdate"><b>Posted:</b> {{ page.date | date: "%-d %B %Y" }}</span>  <b>Tags:</b> 
+    				{% for tag in page.categories %}
+    				<span class="tag"><a href="/categories/{{ tag }}"> {{ tag }} </a></span>
+    				{% endfor %}
+    		</p>
 			{{ content }}
 		</div>	
 	</div>
