@@ -1,0 +1,162 @@
+/* reset */
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'PT Sans', Trebuchet MS, Tahoma, Sans-Serif;
+}
+
+#construction {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+/* sidebar START */
+#profile {
+	margin-bottom: 2.5px;
+}
+
+#sidebar a.sidebar-link {
+	background-color: #2A96BC;
+	color: #F2F2F2;
+	font-size: 24px;
+	line-height: 45px;
+	letter-spacing: 1px;
+	white-space: nowrap;
+	margin-bottom: 2.5px;
+	margin-top: 2.5px;
+	width: 200px;
+	text-align: center;
+	text-decoration: none;
+}
+#sidebar a.sidebar-link:visited {
+	color: #E2E2E2;
+}
+
+#sidebar a.sidebar-link:hover {
+	color: #0071BC;
+	font-style: italic;
+}
+
+
+.sidebar-list {
+	width: 200px;
+}
+#home {
+	position: absolute;
+	top: 210px;
+}
+
+#home a {
+	padding: 25px 200px 25px 68px;
+}
+
+#about {
+	position: absolute;
+	top: 260px;
+}
+#about a {
+	padding: 21px 200px 21px 50px;
+}
+#projects {
+	position: absolute;
+	top: 310px;
+}
+#projects a {
+	padding: 21px 200px 21px 57px;
+}
+#resume {
+	position: absolute;
+	top: 360px;
+}
+#resume a {
+	padding: 21px 200px 21px 57px;
+}
+#blog {
+	position: absolute;
+	top: 410px;
+}
+#blog a {
+	padding: 21px 200px 21px 75px;
+}
+#email {
+	position: absolute;
+	top: 460px;
+}
+#email a {
+	padding: 21px 200px 21px 70px;
+}
+
+#email-tag {
+	display: none;
+	position: absolute;
+	top: 500px;
+	background-color: #52B5D8;
+}
+
+#sidebar ul {
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar ul li {
+	list-style-type: none;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#sidebar {
+	width: 200px;
+	max-width: 200px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+/* sidebar END */
+
+/* content START */
+#content {
+	top: 0px;
+	margin-left: 210px;
+	margin-right: auto;
+	margin-top: 0px;
+}
+
+#content a {
+	text-decoration: none;
+	color: #2a96bc;
+}
+
+#header-text {
+	padding-top: 90px;
+}
+
+#titleline {
+	font-size: 62pt;
+	padding-right: 5px;
+	color: #FF0000;
+	padding-left: 20px;
+}
+
+
+header {
+	background-image: none;
+	margin-top: 0px;
+	border-top: 0px;
+	padding-top: 0px;
+	max-width: 1030px;
+}
+
+/* content END */
+
+/* text styles */
+.bold 				{font-weight: bold;}
+.em					{font-style:italic;}
+.strike				{text-decoration:line-through;}
+.cb					{clear:both;}
+.small				{font-size:12px;line-height:16px;}
+.hidden				{display:none;}
