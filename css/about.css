@@ -159,7 +159,7 @@ body {
 
 
 header {
-	background-image: url("../assets/castle.jpg");
+	background-image: url("../assets/taipei.jpg");
 	margin-top: 0px;
 	border-top: 0px;
 	padding-top: 0px;
@@ -184,6 +184,10 @@ header {
 	font-size: 12pt;
 	border-radius: 3px;
 	border: none;
+}
+
+#content {
+    max-width: 1000px;
 }
 
 

@@ -165,6 +165,10 @@ header {
 	margin: 3px;
 }
 
+#content {
+	max-width: 1000px;
+}
+
 /* content END */
 
 /* text styles */
