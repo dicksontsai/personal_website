@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href={{ page.stylesheet }} />
+	<title>{{ page.title }}</title>
+	<head profile="http://www.w3.org/2005/10/profile">
+	<link rel="icon" 
+      type="image/png" 
+      href="/assets/favicon.png">
+    <script src="/js/jquery-1.9.1.js"></script>
+    <script src="/js/cs_script.js"></script>
+
+</head>
+<body>
+	<div id="sidebar">
+		<a href="/"><img id="profile" src="/assets/me.png" /></a>
+		<ul>
+    <li>Welcome to my section <br>website! - Dickson</li>
+		<li class="sidebar-list" id="about"><a class="sidebar-link" href="mailto:dickson.tsai@berkeley.edu">Email</a></li>
+		</ul>
+		<div id="email-tag">dickson [dot] tsai [at] berkeley</div>
+	</div>
+	<div id="content">
+		<header>
+		<div id="header-text">
+			<span id="titleline">{{ page.headertitle }}</span>
+		</div>
+		</header>
+		{{ content }}
+	</div>
+</body>
+</html>
+
+<!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+Maecenas elementum suscipit nisl. Cras imperdiet leo ac 
+Pellentesque odio nisi, accumsan nec, scelerisque sed, 
+Sed tortor sapien, suscipit id, pulvinar vel, elementum id,
+Nullam consectetuer risus sit amet nibh. Vestibulum 
+Morbi adipiscing consequat erat. Vivamus quis massa eget 
+Morbi posuere purus. Duis feugiat lacus vel nisi. Aliquam 
+Morbi turpis nulla, luctus viverra, pretium in, suscipit. -->
