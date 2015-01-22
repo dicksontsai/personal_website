@@ -1,0 +1,73 @@
+body {
+	padding-top:50px;
+}
+
+#masthead {
+	min-height:315px;
+	/*background-color:#000044;*/
+    background-image: url('/assets/berkeley.jpg');
+
+  	color:#049DCE;
+}
+
+#masthead h1 {
+	font-size: 25px;
+	line-height: 1;
+}
+
+#masthead .well {
+	margin-top:13%;
+	background-color:rgba(220,245,255,0.8);
+  	border-color:#aaaaaa;
+}
+
+.icon-bar {
+	background-color:#fff;
+}
+
+@media screen and (min-width: 768px) {
+	#masthead h1 {
+		font-size: 50px;
+	}
+}
+
+.navbar-bright {
+	background-color:#444;
+    color:#fff;
+}
+  
+.navbar-bright a, #masthead a, #masthead .lead {
+  	color:#049DCE;
+}
+
+.navbar-bright span {
+  color: white;
+}
+
+.navbar-bright li > a:hover {
+    background-color:#000000;
+}
+
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:50px;
+    width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:50px;
+    width:228px;
+  }
+}
+
+.affix,.affix-top {
+   position:static;
+}
+
+#email {
+  display: none;
+}
+

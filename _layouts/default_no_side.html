@@ -1,43 +1,272 @@
-<!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="utf-8" />
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href={{ page.stylesheet }} />
-	<title>{{ page.title }}</title>
-	<head profile="http://www.w3.org/2005/10/profile">
-	<link rel="icon" 
-      type="image/png" 
-      href="/assets/favicon.png">
-    <script src="/js/jquery-1.9.1.js"></script>
-    <script src="/js/cs_script.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/default.css">
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
-	<div id="sidebar">
-		<a href="/"><img id="profile" src="/assets/me.png" /></a>
-		<ul>
-    <li>Welcome to my section <br>website! - Dickson</li>
-		<li class="sidebar-list" id="about"><a class="sidebar-link" href="mailto:dickson.tsai@berkeley.edu">Email</a></li>
-		</ul>
-		<div id="email-tag">dickson [dot] tsai [at] berkeley</div>
-	</div>
-	<div id="content">
-		<header>
-		<div id="header-text">
-			<span id="titleline">{{ page.headertitle }}</span>
-		</div>
-		</header>
-		{{ content }}
-	</div>
+<header class="navbar navbar-bright navbar-fixed-top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img src="/assets/new_me.jpg" class="navbar-brand" />
+    </div>
+    <nav class="collapse navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+      	<li>
+      	  <a href=''><span class='text'>- Welcome to my section website!</span></a>
+      	</li>
+        <li>
+          <a href="/meet">Make an appointment</a>
+        </li>
+        <li>
+          <a id='email-link' href="mailto:dickson.tsai+cs61a@berkeley.edu">Email me</a>
+        </li>
+        <li id='email'>
+          <a href=''><span class='text'>dickson DOT tsai +cs61a AT berkeley</span></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div id="masthead">  
+  <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>CS61A Spring 2015
+            <p class="lead">TA: Dickson Tsai</p>
+          </h1>
+        </div>
+        <div class="col-md-6">
+            <div class="well well-lg"> 
+              <div class="row">
+                <div class="col-sm-4">
+        	      	<strong>Office Hours</strong>
+        	      	<p>M 4-5PM, Th 2-4 PM Garbardini Lounge</p>
+                </div>
+                <div class="col-sm-4">
+	              	<strong>Section 13</strong>
+                  	<p>Tu/Th 11 - 12:30 PM</p>
+                  	<p>Lab: 271 Soda</p>
+                  	<p>Disc: 24 Wheeler</p>
+                </div>
+                <div class="col-sm-4">
+	              	<strong>Section 26</strong>
+                  	<p>Tu/Th 5 - 6:30 PM</p>
+                  	<p>Lab: 273 Soda</p>
+                  	<p>Disc: B56 Hildebrand</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div> 
+  </div><!-- /cont -->
+</div>
+
+<!-- Begin Body -->
+<div class="container">
+	<div class="row">
+  			<div class="col-md-3">
+              
+              	<div class="list-group" id="sidebar">
+                  <a href="#sec0" class="list-group-item">
+                  Section Announcements
+                  </a>
+                  <a href="#sec1" class="list-group-item">Office Hours
+                  </a>
+                  <a href="#sec2" class="list-group-item">Useful Links
+                  </a>
+                  <a href="#sec3" class="list-group-item">Philosophy
+                  </a>
+                  <a href="#sec4" class="list-group-item">Discussion Resources
+                  </a>
+                </div>
+              
+      		</div>  
+      		<div class="col-md-9">
+              	<h2 id="sec0">Section Announcements</h2>
+                <ul>
+                	<li>The midterm is coming in 3 weeks, so make friends soon!.</li>
+              		<li>If you ever miss discussion, the slides are usually posted under "Discussion Resources"</li>
+              	</ul>
+            
+              	<hr class="col-md-12">
+              
+              	<h2 id="sec1">Office Hours</h2>
+ 				<span class="office-hours">Monday 4-5PM, Thursday 2-4PM at Garbarini Lounge</span>
+<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=zM33U288UNU8.kzHCwhaAjDmE" width="640" height="480"></iframe>
+              
+              	<hr>
+              
+              	<h2 id="sec2">Useful Links</h2>
+<!-- <h3><a href="./newcoder.html">New Coder's Guide to CS61A</a></h3> -->
+<h3><a href="./videos.html">My Youtube playlist for CS61A</a></h3>
+<!-- <h3><a href="http://www-inst.eecs.berkeley.edu/~cs61a/fa13/exams/61a-fa13-midterm1-study-guide.pdf">Fall 2013 Midterm 1 Study Guide</a></h3> -->
+
+<h3>Other useful links:</h3>
+<p>
+<ul>
+<li><a href="http://docs.python.org/3/">Python v3.4.1 documentation</a></li>
+<li>The <a href="http://www.pythontutor.com/visualize.html">Online Python Tutor</a> draws environment diagrams for you. Make sure to execute the code using Python 3+ for this class. It may also be helpful to show environment parent pointers until you are familiar with how name lookup works.</li>
+<li><a href="http://ipython.org/notebook.html">The IPython Notebook </a> &mdash; An amazing way to take Python notes. You'll probably need to know more about <a href="http://daringfireball.net/projects/markdown/">Markdown</a>.</li>
+<li><a href="http://eloquentjavascript.net/2nd_edition/preview/05_higher_order.html">Eloquent Javascript Chapter 5: Higher-Order Functions</a>. This is an optional read, since our programming language for this class is Python, not Javascript. However, the author Marijn Haverbeke writes very eloquently on the concepts, and the code should be easy enough to follow.</li>
+<li>For those of you using GitHub as your version control: I highly recommend watching <a href="http://www.youtube.com/watch?v=ZDR433b0HJY">this video</a> by Scott Chacon. He gives a very intuitive lecture about how git works.</li>
+</ul>
+
+              
+              	<hr>
+              
+              	<h2 id="sec3">Philosophy</h2>
+      			<h3>How I'll run labs</h3> 
+
+<ol>
+  <li>Motivation (from Prof. DeNero):
+	  <ul>
+	    <li>Turning in a lab should result in a "sense of accomplishment".</li>
+	    <li>Lab should be a collaborative environment where people answer each other's questions.</li>
+	  </ul>
+  </li>
+
+  <li>Pair programming will be enforced. The pairs themselves can change throughout lab.</li>
+  <ul>
+    <li>Great chance to help others out!</li>
+    <li>Great chance to get to know people, especially those working on the same problem.</li>
+    <li>Great chance to communicate!</li>
+  </ul>
+  <li>Each pair will visit an "exhibit" for each problem, hosted by a lab assistant.</li>
+  <ul>
+    <li>Work at own pace.</li>
+    <li>Lab assistants can "check-off" each pair with follow-up questions.</li>
+    <li>Experienced students can start later on in the exhibit for more efficient use of time.</li>
+  </ul>
+  <li>Once complete with the exhibit, I hope to prepare additional interesting material, e.g. 
+  extra mini-project involving topic that day + extra libraries.</li>
+  <li>Nice, relaxed atmosphere</li>
+  <ul>
+    <li>There will be a break in the middle. I'll try to prepare jokes.</li>
+  </ul>
+</ol>
+
+<h3>How I'll run discussions</h3>
+<ol>
+  <li>Warm-up</li>
+  <li>Discuss why we are studying what we're studying. Applications. Real-life analogies.</li>
+  <ul>
+    <li>Students should come somewhat prepared for more engaging discussion. Not going to be enforced.</li>
+  </ul>
+  <li>Detailed walkthrough of simple example.</li>
+  <li>Easy problems solved in groups. Everyone (somewhat prepared) should be on the same page by the end.</li>
+  <li>Discussion of a difficult problem. What do you know? What approaches should we try? How can we divide this problem into simpler problems?</li>
+  <li>Usually, I'll leave the other difficult problems for students to take home. </li>
+  <ul>
+    <li>Rushing a difficult problem is pointless. I'm just going to give the solution.</li>
+    <li>We don't have to finish the whole discussion packet. It'll leave you with few paper questions to do at home.</li>
+    <li>5 years from now, what will/should you remember? That abstraction is like buying things in a supermarket, or that the answer to #4.3 involves printing before the recursive call?</li>
+  </ul>
+  <li>Breaktime. Working nonstop is unproductive. Humans get tired.</li>
+  <li>Rinse and repeat. Total focus while discussing.</li>
+</ol>
+
+<h3>Dos and Don'ts of Discussion</h3>
+
+<ul>
+  <li>Please come "understanding what you don't understand" - Professor Nolan</li>
+  <ul>
+    <li>It's ok to not fully understand something. Come with questions from lecture/reading!</li>
+    <li>If in a rush, block off 30 mins of your day, and go through the slides/reading. Come up with simple examples. That's all the prep you need.</li>
+  </ul>
+  <li>Please do NOT come to discussion looking for me to explain exam-level problems.</li>
+  <ul>
+    <li>This usually results in 30 minutes of intense explanation and subsequent confusion.</li>
+    <li>I assure you that if you have truly mastered the basics and can "breathe" the concepts, you can tackle the difficult problems.</li>
+  </ul>
+</ul>
+
+<h3>Random thoughts on learning</h3>
+<h4>Best way to learn? Look at how children acquire language</h4>
+There are a few really cool observations about children one can make:
+
+<ol>
+  <li>Babies spend all of their time learning language. They are not expected to do that many other things.</li>
+  <li>Babies don't learn complex sentences first. They learn words first.</li>
+  <li>Babies make mistakes &mdash; lots of them.</li>
+  <li>Parents/caretakers are usually there to give instant feedback for those mistakes.</li>
+  <li>Babies hear lots of data. If no one talks to babies, they do not develop language skills.</li>
+</ol>
+
+<h4>How to apply these observations at the college level</h4>
+<ol>
+  <li>College students are more pressed for time, but if one has to learn something well, incorporate CS more. Beyond class, make stuff with others on the side. It's a nice social activity as well.</li>
+  <li>Start simple. There's no reason to tackle something hard if you're not ready. You need to know the tools you are working with inside/out.</li>
+  <li>Don't feel like you have to be perfect on the first go. Don't get discouraged when you get something wrong. Keep working at it. Also, explore!</li>
+  <li>Python and Google searching gives instant feedback. So do your peers doing CS with you in Berkeley.</li>
+  <li>Do lots of practice problems. Invent practice problems for each other. They don't have to be hard.</li>
+</ol>
+
+<h3>My Summer 2014 TA Bio: What is your teaching style?</h3>
+
+<p>
+  I personally learn best first by learning the rules very deeply.
+  My favorite analogy: if you want to be good at shooting a basketball, at the very least,
+  you can try to make your shot straight. Master that task, then move on. 
+</p>
+
+<p>
+  Then after practicing a lot, start to form an intuition that will 
+  hopefully guide me through more difficult problems. 
+  Back to the analogy: Once you can confidently shoot the ball straight all the time,
+  you don't have to worry about that aspect as much. 
+</p>
+
+<p>
+  Thus, I expect my sections to be a bit mechanical at the beginning, 
+  where I present lots of easy problems. If one gets bored of easy problems,
+  aim for speed and accuracy, then try to write out your intuition. 
+</p>
+
+<p>
+  It's only after one gets enough practice that s/he gets to see the patterns to guide intuition. 
+  It's how babies acquire languages really fast. Language is part of their life. You can make
+  programming part of yours as well. Programming's not just for school. You can totally socialize and code.
+</p>
+
+<p>
+  I also like to be informal and easygoing, so expect a lot of trivia and talk about life along the way.
+</p>
+
+<hr>
+              
+              	<h2 id="sec4">Discussion Resources</h2>
+              		<p>I will update slides after each discussion to account for common student misconceptions and expansions of explanations that worked in discussion. This is complete when you see *UPDATED* next to the event that occurred. One can also find optional conceptual questions to go along with the lecture/reading in each slideshow.</p>
+              		<h3>Discussion Resources</h3>
+
+              		<h3>Lab Resources</h3>
+              	
+      		</div> 
+  	</div>
+</div>
+<script>
+$('#sidebar').affix({
+      offset: {
+        top: $('#masthead').height()
+      }
+});
+   $('#email-link').mouseenter(function() {
+        $('#email').show();
+    });
+   $('#email-link').mouseleave( 
+    function() {
+        $('#email').hide();
+    });
+</script>
 </body>
 </html>
-
-<!-- Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-Maecenas elementum suscipit nisl. Cras imperdiet leo ac 
-Pellentesque odio nisi, accumsan nec, scelerisque sed, 
-Sed tortor sapien, suscipit id, pulvinar vel, elementum id,
-Nullam consectetuer risus sit amet nibh. Vestibulum 
-Morbi adipiscing consequat erat. Vivamus quis massa eget 
-Morbi posuere purus. Duis feugiat lacus vel nisi. Aliquam 
-Morbi turpis nulla, luctus viverra, pretium in, suscipit. -->
