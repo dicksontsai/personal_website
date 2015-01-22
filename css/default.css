@@ -36,8 +36,12 @@ body {
     color:#fff;
 }
   
-.navbar-bright a, #masthead a, #masthead .lead {
+.navbar-bright a, #masthead .lead {
   	color:#55ccee;
+}
+
+#masthead a {
+  text-decoration: none
 }
 
 .navbar-bright span {
@@ -71,3 +75,23 @@ body {
   display: none;
 }
 
+.slides-container {
+    width: 100%;
+}
+
+.slides {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0px;
+}
+
+.slides li {
+    display: inline;
+}
+.slides a {
+    text-decoration: none;
+  color: #35BCE0;
+    padding: 25px;
+    text-align: center;
+    font-weight: bold;
+}

@@ -42,7 +42,7 @@
   <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>CS61A Spring 2015
+          <h1><a href='//cs61a.org'>CS61A Spring 2015</a>
             <p class="lead">TA: Dickson Tsai</p>
           </h1>
         </div>
@@ -50,7 +50,7 @@
             <div class="well well-lg"> 
               <div class="row">
                 <div class="col-sm-4">
-        	      	<strong>Office Hours</strong>
+        	      	<strong><a href='#sec1'>Office Hours</a></strong>
         	      	<p>M 4-5PM, Th 2-4 PM Garbardini Lounge</p>
                 </div>
                 <div class="col-sm-4">
@@ -97,8 +97,8 @@
       		<div class="col-md-9">
               	<h2 id="sec0">Section Announcements</h2>
                 <ul>
-                	<li>The midterm is coming in 3 weeks, so make friends soon!.</li>
-              		<li>If you ever miss discussion, the slides are usually posted under "Discussion Resources"</li>
+                	<li>The midterm is coming in 3 weeks, so make friends soon!</li>
+              		<li>If you ever miss discussion, the slides are usually posted under "<a href="#sec4">Discussion Resources</a>"</li>
               	</ul>
             
               	<hr class="col-md-12">
@@ -250,6 +250,18 @@ There are a few really cool observations about children one can make:
               	<h2 id="sec4">Discussion Resources</h2>
               		<p>I will update slides after each discussion to account for common student misconceptions and expansions of explanations that worked in discussion. This is complete when you see *UPDATED* next to the event that occurred. One can also find optional conceptual questions to go along with the lecture/reading in each slideshow.</p>
               		<h3>Discussion Resources</h3>
+              			<ul>
+              			{% for disc in site.data.discussions %}
+              				<li><h5>{{disc.date}}: Discussion {{disc.number}} - {{disc.topic}}</h5>
+              					<div class="slides-container">
+	              					<ul class="slides">
+	              						<li><a href='/cs61a/discussion/disc{{disc.number}}.pdf'>PDF</a></li>
+	              						<li><a href='/cs61a/discussion/disc{{disc.number}}.pptx'>pptx</a></li>
+	              					</ul>
+              					</div>
+              				</li>
+              			{% endfor %}
+              			</ul>
 
               		<h3>Lab Resources</h3>
 
