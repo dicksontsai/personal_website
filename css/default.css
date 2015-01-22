@@ -7,7 +7,7 @@ body {
 	/*background-color:#000044;*/
     background-image: url('/assets/berkeley.jpg');
 
-  	color:#049DCE;
+  	color:#0077CE;
 }
 
 #masthead h1 {
@@ -37,7 +37,7 @@ body {
 }
   
 .navbar-bright a, #masthead a, #masthead .lead {
-  	color:#049DCE;
+  	color:#55ccee;
 }
 
 .navbar-bright span {
